@@ -27,3 +27,4 @@ tag @s remove gm4_lt_weakness
 tag @s remove gm4_lt_luck
 tag @s remove gm4_lt_slow_falling
 tag @s remove gm4_lt_floating
+tag @s remove gm4_lt_glowing

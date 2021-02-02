@@ -106,3 +106,6 @@ execute if score @s[tag=gm4_lt_slow_falling] gm4_lt_value matches ..297 if block
 
 #floating - added by module
 execute if score @s[tag=gm4_lt_floating] gm4_lt_value matches ..299 if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:potion",tag:{Potion:"potion_liquids:floating"}}]} run function gm4_potion_liquids:item_drain/potion
+
+#glowing - added by module
+execute if score @s[tag=gm4_lt_glowing] gm4_lt_value matches ..299 if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:potion",tag:{Potion:"potion_liquids:glowing"}}]} run function gm4_potion_liquids:item_drain/potion

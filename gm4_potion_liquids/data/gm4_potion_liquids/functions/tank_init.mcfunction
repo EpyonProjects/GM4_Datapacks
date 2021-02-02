@@ -104,3 +104,6 @@ execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:potion",tag:{Potion:
 
 #floating - added by module
 execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:potion",tag:{Potion:"potion_liquids:floating"}}]} run function gm4_potion_liquids:liquid_init/floating
+
+#glowing - added by module
+execute if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:potion",tag:{Potion:"potion_liquids:glowing"}}]} run function gm4_potion_liquids:liquid_init/glowing

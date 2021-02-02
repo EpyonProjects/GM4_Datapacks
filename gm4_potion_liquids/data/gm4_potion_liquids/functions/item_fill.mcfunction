@@ -78,3 +78,6 @@ execute if score @s[tag=gm4_lt_slow_falling] gm4_lt_value matches 1.. if block ~
 
 #floating
 execute if score @s[tag=gm4_lt_floating] gm4_lt_value matches 1.. if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:glass_bottle"}]} run function gm4_potion_liquids:item_fill/floating_potion
+
+#glowing
+execute if score @s[tag=gm4_lt_glowing] gm4_lt_value matches 1.. if block ~ ~ ~ hopper{Items:[{Slot:0b,id:"minecraft:glass_bottle"}]} run function gm4_potion_liquids:item_fill/glowing_potion

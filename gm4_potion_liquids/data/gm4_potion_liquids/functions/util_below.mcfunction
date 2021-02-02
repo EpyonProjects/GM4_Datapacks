@@ -81,4 +81,7 @@ execute if score @s[tag=gm4_lt_slow_falling] gm4_lt_value matches 1.. as @e[team
 #floating
 execute if score @s[tag=gm4_lt_floating] gm4_lt_value matches 1.. as @e[team=!invalid_team,type=!armor_stand,limit=1,dx=0] unless entity @s[gamemode=spectator] if entity @s[nbt=!{ActiveEffects:[{Id:25b}]}] run function gm4_potion_liquids:util/floating
 
+#glowing
+execute if score @s[tag=gm4_lt_glowing] gm4_lt_value matches 1.. as @e[team=!invalid_team,type=!armor_stand,limit=1,dx=0] unless entity @s[gamemode=spectator] if entity @s[nbt=!{ActiveEffects:[{Id:25b}]}] run function gm4_potion_liquids:util/glowing
+
 tag @s remove gm4_processing_tank

@@ -9,4 +9,10 @@ execute as @e[dx=0,type=shulker] run function gm4_potion_liquids:util/shulker
 #witch
 execute as @e[dx=0,type=witch] run function gm4_potion_liquids:util/witch
 
+#phantom
+execute as @e[dx=0,type=phantom] run function gm4_potion_liquids:util/phantom
+
+#glow squid
+execute as @e[dx=0,type=glow_squid] run function gm4_potion_liquids:util/glow_squid
+
 tag @s remove gm4_processing_tank
