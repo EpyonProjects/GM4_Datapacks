@@ -1,7 +1,5 @@
 # @s = written book ..1 from armor_stand
 
-data modify storage gm4_better_armour_stands:temp/book Item.tag set from entity @s Item.tag
-
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["default"]} as @e[limit=1,distance=..1,type=armor_stand,tag=!gm4_no_edit,sort=nearest] at @s run function gm4_better_armour_stands:default
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["no gravity"]} run data merge entity @e[limit=1,distance=..1,type=armor_stand,tag=!gm4_no_edit,sort=nearest] {NoGravity:1}
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["gravity"]} run data merge entity @e[limit=1,distance=..1,type=armor_stand,tag=!gm4_no_edit,sort=nearest] {NoGravity:0}
@@ -21,5 +19,3 @@ execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["turn
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["turn right"]} run tag @e[limit=1,distance=..1,type=armor_stand,tag=!gm4_no_edit,sort=nearest] remove gm4_turn_clockwise
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["no turn"]} run tag @e[limit=1,distance=..1,type=armor_stand,tag=!gm4_no_edit,sort=nearest] remove gm4_turn_clockwise
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["no turn"]} run tag @e[limit=1,distance=..1,type=armor_stand,tag=!gm4_no_edit,sort=nearest] remove gm4_turn_anticlockwise
-
-data remove storage gm4_better_armour_stands:temp/book Item.tag
