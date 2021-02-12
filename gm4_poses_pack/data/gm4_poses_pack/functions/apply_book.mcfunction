@@ -12,6 +12,6 @@ tag @s add gm4_pose_changed
 #copy pose to armor_stand item
 execute if data storage gm4_poses_pack:temp/book Item.tag{pages:["copy"]} as @e[type=minecraft:item,distance=..1,limit=1,nbt={Item:{id:"minecraft:armor_stand"}},tag=!gm4_pose_copied] run function gm4_poses_pack:copy
 
-data modify storage gm4_better_armour_stands:temp/book Item.tag set from entity @s Item.tag
+data modify storage gm4_poses_pack:temp/book Item.tag set from entity @s Item.tag
 
 execute as @e[type=armor_stand,tag=!gm4_no_edit,tag=gm4_pose_changed] run function gm4_poses_pack:pose_changed
