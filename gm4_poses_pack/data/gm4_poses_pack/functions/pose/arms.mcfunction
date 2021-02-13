@@ -4,7 +4,7 @@
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["hanging"]} run data merge entity @e[type=armor_stand,distance=..1,limit=1,sort=nearest,tag=!gm4_no_edit] {Pose:{LeftArm:[0f,0f,0f],RightArm:[0f,0f,0f]},Tags:[gm4_pose_changed]}
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["reaching"]} run data merge entity @e[type=armor_stand,distance=..1,limit=1,sort=nearest,tag=!gm4_no_edit] {Pose:{LeftArm:[254f,0f,0f],RightArm:[254f,0f,0f]},Tags:[gm4_pose_changed]}
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["swinging"]} run data merge entity @e[type=armor_stand,distance=..1,limit=1,sort=nearest,tag=!gm4_no_edit] {Pose:{LeftArm:[304f,0f,0f],RightArm:[40f,0f,0f]},Tags:[gm4_pose_changed]}
-execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["rested"]} run data merge entity @e[type=armor_stand,distance=..1,limit=1,sort=nearest,tag=!gm4_no_edit] {Pose:{LeftArm:[263f,340f,188f],RightArm:[263f,25f,188f]},Tags:[gm4_pose_changed]}
+execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["resting"]} run data merge entity @e[type=armor_stand,distance=..1,limit=1,sort=nearest,tag=!gm4_no_edit] {Pose:{LeftArm:[263f,340f,188f],RightArm:[263f,25f,188f]},Tags:[gm4_pose_changed]}
 execute if data storage gm4_better_armour_stands:temp/book Item.tag{pages:["raised"]} run data merge entity @e[type=armor_stand,distance=..1,limit=1,sort=nearest,tag=!gm4_no_edit] {Pose:{LeftArm:[179f,0f,24f],RightArm:[179f,0f,344f]},Tags:[gm4_pose_changed]}
 
 #if page 2 does not exist, set both arms from player rotation
