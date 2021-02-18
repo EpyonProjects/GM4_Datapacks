@@ -1,0 +1,29 @@
+{
+    "pack": {
+        "pack_format": 7,
+        "description": [
+            "Colored Glow Frames",
+            "\n",
+            {
+                "text": "Gamemode 4 for 1.17",
+                "color": "aqua"
+            }
+        ]
+    },
+    "module_name": "Colored Glow Frames",
+    "module_id": "colored_glow_frames",
+    "site_description": "Craft item frames that glow different colors!",
+    "site_categories": [],
+    "wiki_link": "https://wiki.gm4.co/wiki/Colored_Glow_Frames",
+    "required_modules": [
+        "custom_crafters"
+    ],
+    "recommended_modules": [
+        "display_frames"
+    ],
+    "credits": {
+        "Creator": [
+            ["TheEpyonProject"]
+        ]
+    }
+}
