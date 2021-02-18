@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "glow_ink_sac",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                "RGB Light Display",
+                { "translate": "advancement.gm4.colored_glow_frames.title" }
+            ]
+        },
+        "description": {
+            "translate": "%1$s%3427655$s",
+            "with": [
+                "Create a Colored Glow Frame",
+                { "translate": "advancement.gm4.colored_glow_frames.description" }
+            ],
+            "color": "gray"
+        }
+    },
+    "parent": "gm4:root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
