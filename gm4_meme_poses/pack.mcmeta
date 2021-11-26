@@ -1,0 +1,50 @@
+{
+    "pack": {
+      "pack_format": 8,
+      "description": [
+        "Meme Poses Pack",
+        "\n",
+        {
+          "text": "Gamemode 4 for 1.18",
+          "color": "#4AA0C7"
+        }
+      ]
+    },
+    "module_name": "Meme Poses Pack",
+    "module_id": "meme_poses_pack",
+    "site_description": "Allows you to set Armor Stands to pose in various, meme-y ways using the Better Armor Stands base module",
+    "site_categories": [
+      "Better Armour Stands"
+    ],
+    "video_link": "",
+    "wiki_link": "",
+    "required_modules": [
+      "better_armour_stands"
+    ],
+    "recommended_modules": [
+      "poses_pack",
+      "particles_pack"
+    ],
+    "credits": {
+      "Creator": [
+        [
+          "Sparks",
+          "https://www.twitter.com/SparksTheGamer"
+        ]
+      ],
+      "Updated by": [
+        [
+          "SpecialBuilder32",
+          "https://www.twitter.com/SpecialBuilder"
+        ],
+        [
+          "Misode",
+          "https://twitter.com/misoloo"
+        ],
+        [
+          "Epyon",
+          ""
+        ]
+      ]
+    }
+  }
