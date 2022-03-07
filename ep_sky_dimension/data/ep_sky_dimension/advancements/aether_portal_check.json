@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:water_bucket"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:glowstone"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ep_sky_dimension:wrong_sky/count_blocks"
+  }
+}
