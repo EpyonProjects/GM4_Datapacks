@@ -1,0 +1,24 @@
+id: gm4_lexicon
+name: Lexicon
+version: 1.0.X
+
+data_pack:
+  load: .
+
+pipeline:
+  - gm4.plugins.extend.module
+
+meta:
+  gm4:
+    versioning:
+      schedule_loops: [main]
+    website:
+      description: Use Lecterns to display information about items
+      recommended:
+        - gm4_resource_pack
+      notes: []
+    video: null
+    wiki: https://wiki.gm4.co/Lexicon
+    credits:
+      Creators:
+        - TheEpyonProject
